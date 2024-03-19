@@ -8,3 +8,20 @@
 body{
     font-family: "Exo 2", sans-serif;
 }
+
+.title-color{
+    color: rgb(17, 17, 17);
+}
+.accent-color{
+    color: #757575;
+}
+
+.theme-color{
+    background: rgb(96, 71, 236);
+}
+
+.link-color{
+    color: rgb(96, 71, 236);
+}
+
+/* title  color code in hax - #111111 */
