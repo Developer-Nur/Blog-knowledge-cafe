@@ -1,0 +1,43 @@
+[
+    {
+      "id": "123456",
+      "cover": "./images/1.jpg",
+      "title": "The Mystery of Midnight Manor",
+      "author": "Victoria A. Lexington",
+      "author_img": "./images/boy4.png",
+      "posted_date": "March 10, 2024",
+      "reading_time": 9,
+      "hashtags": ["#mystery", "#thriller", "#suspense"]
+    },
+    {
+      "id": "987654",
+      "cover": "./images/2.jpg",
+      "title": "Beyond the Stars",
+      "author": "Alexander K. Silverstone",
+      "author_img": "./images/boy1.png",
+      "posted_date": "March 12, 2024",
+      "reading_time": 6,
+      "hashtags": ["#scifi", "#adventure", "#space"]
+    },
+    {
+      "id": "456789",
+      "cover": "./images/3.jpg",
+      "title": "Secrets of the Deep",
+      "author": "Marina L. Oceanus",
+      "author_img": "./images/boy2.png",
+      "posted_date": "March 8, 2024",
+      "reading_time": 5,
+      "hashtags": ["#fantasy", "#underwater", "#magic"]
+    },
+    {
+      "id": "246813",
+      "cover": "./images/4.jpg",
+      "title": "Echoes of Eternity",
+      "author": "Gabriel R. Evergreen",
+      "author_img": "./images/boy3.png",
+      "posted_date": "March 11, 2024",
+      "reading_time": 7,
+      "hashtags": ["#romance", "#historical", "#drama"]
+    }
+  ]
+  
