@@ -7,7 +7,7 @@
       "author_img": "./images/boy1.png",
       "posted_date": "March 10, 2024",
       "reading_time": 9,
-      "hashtags": ["#mystery", "#thriller", "#suspense"]
+      "hashtags": ["mystery", "thriller", "suspense"]
     },
     {
       "id": "987654",
@@ -17,7 +17,7 @@
       "author_img": "./images/boy2.png",
       "posted_date": "March 12, 2024",
       "reading_time": 6,
-      "hashtags": ["#scifi", "#adventure", "#space"]
+      "hashtags": ["scifi", "adventure", "space"]
     },
     {
       "id": "456789",
@@ -27,7 +27,7 @@
       "author_img": "./images/girl1.jpg",
       "posted_date": "March 8, 2024",
       "reading_time": 5,
-      "hashtags": ["#fantasy", "#underwater", "#magic"]
+      "hashtags": ["fantasy", "underwater", "magic"]
     },
     {
       "id": "246813",
@@ -37,7 +37,7 @@
       "author_img": "./images/girl2.jpg",
       "posted_date": "March 11, 2024",
       "reading_time": 7,
-      "hashtags": ["#romance", "#historical", "#drama"]
+      "hashtags": ["romance", "historical", "drama"]
     }
   ]
   
