@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 const Blog = ({ blog,handleBookmarkTitle,handleMakeAsRead }) => {
-    const { title, cover, author, hashtags, reading_time, posted_date, author_img } = blog;
+    const { title, id, cover, author, hashtags, reading_time, posted_date, author_img } = blog;
     return (
         <div className='space-y-7 pb-[60px]'>
             <img src={cover} alt="" />
@@ -27,16 +27,16 @@ const Blog = ({ blog,handleBookmarkTitle,handleMakeAsRead }) => {
                         hashtags.map((hash, index)=> <span key={index}><a href="#">#{hash} </a></span>)
                     }
                 </p>
-                <button onClick={()=>handleMakeAsRead(reading_time)} className='underline text-xl font-semibold link-color hover:text-[#111111]'>Mark as read</button>
-            </div>
+                <button onClick={()=>handleMakeAsRead(id, reading_time)} className='underline text-xl font-semibold link-color hover:text-[#111111]'>Mark as read</button>
+            </div> 
         </div>
     );
 };
 
-Blog.propType = {
+Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleBookmarkTitle: PropTypes.object.func,
-    handleMakeAsRead: PropTypes.object.func
+    handleBookmarkTitle: PropTypes.func,
+    handleMakeAsRead: PropTypes.func
 }
 
 export default Blog;

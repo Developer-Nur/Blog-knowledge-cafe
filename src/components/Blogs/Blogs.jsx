@@ -34,8 +34,8 @@ const Blogs = ({handleBookmarkTitle, handleMakeAsRead}) => {
 };
 
 Blogs.propType = {
-    handleBookmarkTitle: PropTypes.object.func,
-    handleMakeAsRead: PropTypes.object.func
+    handleBookmarkTitle: PropTypes.func,
+    handleMakeAsRead: PropTypes.func
 }
 
 export default Blogs;

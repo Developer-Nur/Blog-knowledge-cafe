@@ -1,6 +1,6 @@
 [
     {
-      "id": "123456",
+      "id": "1",
       "cover": "./images/2.png",
       "title": "The Mystery of Midnight Manor",
       "author": "Victoria A. Lexington",
@@ -10,7 +10,7 @@
       "hashtags": ["mystery", "thriller", "suspense"]
     },
     {
-      "id": "987654",
+      "id": "2",
       "cover": "./images/1.jpg",
       "title": "Beyond the Stars",
       "author": "Alexander K. Silverstone",
@@ -20,7 +20,7 @@
       "hashtags": ["scifi", "adventure", "space"]
     },
     {
-      "id": "456789",
+      "id": "3",
       "cover": "./images/3.png",
       "title": "Secrets of the Deep",
       "author": "Marina L. Oceanus",
@@ -30,7 +30,7 @@
       "hashtags": ["fantasy", "underwater", "magic"]
     },
     {
-      "id": "246813",
+      "id": "4",
       "cover": "./images/4.jpg",
       "title": "Echoes of Eternity",
       "author": "Gabriel R. Evergreen",

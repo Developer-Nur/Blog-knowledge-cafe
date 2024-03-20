@@ -12,9 +12,11 @@ function App() {
   // Blog to add make as read state
   const [readTime, setReadTime] = useState(0);
 
-  const handleMakeAsRead = readingTime => {
+  const handleMakeAsRead = (id,readingTime) => {
     const totalRadingTime = (readTime + readingTime);
     setReadTime(totalRadingTime)
+    const remaingBookMarks = bookmarks.filter(bookmark => bookmark.id !== id)
+    setBookmark(remaingBookMarks)
   }
 
   // Blog event, to add blog title to the bookmark
