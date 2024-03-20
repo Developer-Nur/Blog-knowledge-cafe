@@ -3,7 +3,7 @@ import Blog from '../Blog/Blog'
 import PropTypes from 'prop-types';
 
 
-const Blogs = ({handleBookmarkTitle}) => {
+const Blogs = ({handleBookmarkTitle, handleMakeAsRead}) => {
 
     const [blogs, setBlogs] = useState([]);
 
@@ -23,6 +23,7 @@ const Blogs = ({handleBookmarkTitle}) => {
                     key={index}
                     blog={blog}
                     handleBookmarkTitle={handleBookmarkTitle}
+                    handleMakeAsRead={handleMakeAsRead}
                     >
                         
                 </Blog>)
@@ -32,8 +33,9 @@ const Blogs = ({handleBookmarkTitle}) => {
     );
 };
 
-Blogs.propTypes = {
-    handleBookmarkTitle: PropTypes.object.isRequired
+Blogs.propType = {
+    handleBookmarkTitle: PropTypes.object.func,
+    handleMakeAsRead: PropTypes.object.func
 }
 
 export default Blogs;
